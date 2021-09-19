@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+
+    --primary-dark   : #22577A;
+    --secondary-dark : #38A3A5;
+    --primary-light  : #57CC99;
+    --secondary-light: #80ED99;
+}
+
+.navbar,.top{
+    background-color: var(--primary-dark);
+    width: 100%;
+}
+
+.logo{
+    min-width:50px;
+    height: 50px;
+}
+
+.logo:hover{
+    filter: grayscale( 100%)
+}
+
+.right-logos{
+    padding:8%;
+}
+
+
+.nav-bar-link{
+    text-decoration: none;
+    color:white;
+    float: right;
+    font-size: small;
+}
+
+.search-btn{
+    background-color: var(--secondary-dark);
+}
+
+.search-icon{
+    border-radius: 0%;
+    border-top-right-radius:10% ;
+    border-bottom-right-radius:10%;
+    background-color: var(--primary-light   );
+}
+
+.search-icon:active{
+    filter: grayscale(100%)
+}
+
+.search-bar{
+    border-top-right-radius:0% ;
+    border-bottom-right-radius:0%;
+}
+
+.header-titles{
+    margin-left:-4.5vw;
+}
+
+.header-titles:hover{
+    color:var(--secondary-dark)
+}
+
+@media only screen and (max-width: 1150px) {
+    .header-titles{
+        display:none;
+    }
+}
